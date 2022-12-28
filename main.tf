@@ -17,7 +17,7 @@ module "ec2_cluster" {
   monitoring             = true
   vpc_security_group_ids = ["sg-0f0240fd005e95963"]
   subnet_id              = "subnet-0a4cccd4e1add4931"
-  user_data		 = "${file("./script.sh")}"
+  user_data		 = "${file("script.sh")}"
   tags = {
     Terraform   = "true"
     Environment = "prod"
