@@ -25,7 +25,8 @@ Ubah file main.tf di baris ke 2 dan 3 sesuai access key dan secret key yang dida
 
 Lalu sesuaikan di baris 18 variabel vpc_security_group_ids dan baris 19 variabel subnet_id dari AWS VPC, lalu ganti isi variabelnya.
 
-Cara isi variabel sudah sesuai, pastikan command terraform bisa dijalankan
+Cara  memastika apakah isi variabel sudah sesuai, pastikan command terraform bisa dijalankan? 
+Misalnya ketika menjalankan terraform init di terminal bisa, berarti konfigurasi main.tf sudah benar
 
 Cara membuat infrastruktur server dengan NGINX, aplikasi Node.js, SSL, security best practices, dan sistem operasi Centos 7 di AWS oleh Terraform:
 
