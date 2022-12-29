@@ -23,7 +23,7 @@ Siapkan Access Key dan Secret Key dari akun AWS IAM
 
 Ubah file main.tf di baris ke 2 dan 3 sesuai access key dan secret key yang didapatkan
 
-Lalu sesuaikan variabel vpc_security_group_ids dan subnet_id dari AWS VPC, lalu ganti isi variabelnya.
+Lalu sesuaikan di baris 18 variabel vpc_security_group_ids dan baris 19 variabel subnet_id dari AWS VPC, lalu ganti isi variabelnya.
 
 Cara isi variabel sudah sesuai, pastikan command terraform bisa dijalankan
 
