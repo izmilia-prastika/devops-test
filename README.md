@@ -21,10 +21,11 @@ Kemudian buat akun AWS IAM, caranya seperti berikut https://docs.aws.amazon.com/
 
 Siapkan Access Key dan Secret Key dari akun AWS IAM
 
-Ubah file aws-ec2.tf di baris ke 2 dan 3 sesuai access key dan secret key yang didapatkan
+Ubah file main.tf di baris ke 2 dan 3 sesuai access key dan secret key yang didapatkan
 
-Pastikan command terraform bisa dijalankan
+Lalu sesuaikan variabel vpc_security_group_ids dan subnet_id dari AWS VPC, lalu ganti isi variabelnya.
 
+Cara isi variabel sudah sesuai, pastikan command terraform bisa dijalankan
 
 Cara membuat infrastruktur server dengan NGINX, aplikasi Node.js, SSL, security best practices, dan sistem operasi Centos 7 di AWS oleh Terraform:
 
